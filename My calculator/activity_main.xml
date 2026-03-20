@@ -13,7 +13,9 @@
         android:textColor="#FF0000"
         android:textSize="30sp"
         android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true" /> <TextView
+        android:layout_alignParentLeft="true" />
+    
+    <TextView
     android:id="@+id/tv_score"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -21,7 +23,9 @@
     android:textColor="#FF0000"
     android:textSize="30sp"
     android:layout_alignParentTop="true"
-    android:layout_alignParentRight="true" /> <TextView
+    android:layout_alignParentRight="true" /> 
+    
+    <TextView
     android:id="@+id/tv_question"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -34,6 +38,7 @@
         android:layout_height="80dp"
         android:orientation="horizontal"
         android:layout_alignParentBottom="true">
+        
         <Button
         android:id="@+id/btn_correct"
         android:layout_width="0dp"
